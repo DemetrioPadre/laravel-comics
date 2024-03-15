@@ -2,5 +2,5 @@
 
 
 @section('main-content')
-<h1>Collectibles</h1>
+<h1></h1>
 @endsection

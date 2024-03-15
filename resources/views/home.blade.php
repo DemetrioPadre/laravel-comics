@@ -2,5 +2,5 @@
 
 
  @section('main-content')
- <h1>DComics</h1>
+ <h1></h1>
  @endsection

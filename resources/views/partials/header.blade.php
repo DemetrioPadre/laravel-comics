@@ -1,10 +1,10 @@
-<header class="container d-flex justify-content-center">
+<header class="container d-flex justify-content-center mt-4">
 
 
 
     <ul>
         <li>
-            <a @class([ 'link' , 'active'=> Route::currentRouteName()=='home' ]) href="{{ route('home') }}"> <img src="{{Vite::asset('/resources/images/dc-logo.png')}}" alt=""></a>
+            <a @class([ 'link' , 'active'=> Route::currentRouteName()=='home' ]) href="{{ route('home') }}"> <img class="logoHeader" src="{{Vite::asset('/resources/images/dc-logo.png')}}" alt=""></a>
         </li>
         <li>
             <a @class([ 'link' , 'active'=> Route::currentRouteName()=='Characters' ]) href="{{ route('Characters') }}">Characters</a>

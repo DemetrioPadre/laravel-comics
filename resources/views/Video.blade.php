@@ -2,5 +2,5 @@
 
 
 @section('main-content')
-<h1>Videos</h1>
+<h1></h1>
 @endsection

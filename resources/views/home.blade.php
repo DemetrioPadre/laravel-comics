@@ -12,7 +12,7 @@
 
 <body>
   @include('partials.header')
-  <h1>il mio primo vero progetto in laravel</h1>
+  <h1>DComics</h1>
   @include('partials.footer')
 </body>
 

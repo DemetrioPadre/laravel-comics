@@ -10,6 +10,6 @@
         <li><a href="{{ route('Video') }}">Video</a></li>
         <li><a href="{{ route('Fans') }}">Fans</a></li>
         <li><a href="{{ route('News') }}">News</a></li>
-        <li><a href="{{ route('Shope') }}">Shop</a></li>
+        <li><a href="{{ route('Shop') }}">Shop</a></li>
     </ul>
 </header>

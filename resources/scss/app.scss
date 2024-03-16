@@ -1,0 +1,36 @@
+@import "~bootstrap/scss/bootstrap";
+
+// header
+li {
+    display: inline-block;
+
+    .link {
+        text-decoration: none;
+        color: inherit;
+        padding: 1rem;
+    }
+
+
+}
+
+.link:hover {
+    color: #0282f9;
+    border-bottom: 5px solid #0282f9;
+    padding: 60px;
+}
+
+.logoHeader {
+    width: 70px;
+}
+
+header {
+    height: 100px;
+}
+
+//jumbo
+
+.jumbo {
+    background-image: url('../images/jumbotron.jpg');
+    height: 400px;
+    object-fit: cover;
+}

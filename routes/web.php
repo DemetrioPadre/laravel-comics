@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//  ROTTE HEADER
 Route::get('/', function () {
   return view('home');
 })->name('home');
@@ -56,3 +56,7 @@ Route::get('/News', function () {
 Route::get('/Shop', function () {
   return view('Shop');
 })->name('Shop');
+//  FINE ROTTE HEADER
+
+// ROTTE COPERTINE JUMBO
+// FINE ROTTE COPERTINE JUMBO

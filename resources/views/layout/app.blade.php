@@ -15,14 +15,14 @@
     <!-- header -->
     @include('partials.header')
 
-
+    @include('partials.jumbo')
+    @yield('jumbo')
     @yield('main-content')
     <!-- fine header -->
 
     <!-- jumbotron img -->
+    <!-- metterlo sopra ricordati -->
 
-    @include('partials.jumbo')
-    @yield('jumbo')
 
     <!-- fine jmb img -->
 

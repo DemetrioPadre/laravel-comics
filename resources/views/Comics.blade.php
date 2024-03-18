@@ -7,7 +7,7 @@
     <div class="col-2">
         <div class="card">
             <img src="{{$Comic['thumb']}}" class="card-img-top" alt="{{$Comic['series']}}">
-            <p>{{$Comic['title']}}</p>
+            <p>{{$Comic['series']}}</p>
         </div>
     </div>
 

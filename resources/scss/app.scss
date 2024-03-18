@@ -72,11 +72,24 @@ header {
 
 }
 
-.linkF {
+.linkF,
+.linkS {
     color: white;
     flex-wrap: wrap;
 
     li {
         list-style: none;
+        color: grey;
     }
+}
+
+.linkT,
+.linkF {
+    color: white;
+
+    li {
+        list-style: none;
+        color: grey;
+    }
+
 }

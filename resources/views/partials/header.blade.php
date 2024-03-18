@@ -1,8 +1,5 @@
 <header class="container d-flex justify-content-center mt-4">
-
-
-
-    <ul>
+    <ul class="headerList">
         <li>
             <a @class([ 'link' , 'active'=> Route::currentRouteName()=='home' ]) href="{{ route('home') }}"> <img class="logoHeader" src="{{Vite::asset('/resources/images/dc-logo.png')}}" alt=""></a>
         </li>

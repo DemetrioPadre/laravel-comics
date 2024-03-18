@@ -1,17 +1,20 @@
 @import "~bootstrap/scss/bootstrap";
 
 // header
-li {
-    display: inline-block;
+.headerList {
+    li {
+        display: inline-block;
 
-    .link {
-        text-decoration: none;
-        color: inherit;
-        padding: 1rem;
+        .link {
+            text-decoration: none;
+            color: inherit;
+            padding: 1rem;
+        }
+
+
     }
-
-
 }
+
 
 .link:hover {
     color: #0282f9;
@@ -60,4 +63,20 @@ header {
 
 .upperfooter {
     font-size: xx-small;
+
+}
+
+.backgrnd {
+    background-image: url('../images/footer-bg.jpg');
+    height: 500px;
+
+}
+
+.linkF {
+    color: white;
+    flex-wrap: wrap;
+
+    li {
+        list-style: none;
+    }
 }

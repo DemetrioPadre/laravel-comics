@@ -34,10 +34,16 @@ header {
     background-image: url('../images/jumbotron.jpg');
     height: 400px;
     object-fit: cover;
-
 }
 
-.row {
+.fum {
+    color: white;
+    background-color: #0282f9;
+    top: -3rem;
+    position: relative;
+}
+
+.copertine {
     background-color: black;
 }
 
@@ -45,4 +51,13 @@ header {
     width: 100%;
     aspect-ratio: 2/3;
     object-fit: cover;
+}
+
+// footer
+.pippo {
+    background-color: #0282f9;
+}
+
+.upperfooter {
+    font-size: xx-small;
 }

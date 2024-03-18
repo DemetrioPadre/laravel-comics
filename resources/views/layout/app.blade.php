@@ -16,7 +16,7 @@
     @include('partials.header')
 
     @include('partials.jumbo')
-    @yield('jumbo')
+    <!-- @yield('jumbo') -->
     @yield('main-content')
     <!-- fine header -->
 

@@ -80,6 +80,7 @@ header {
     li {
         list-style: none;
         color: grey;
+        font-size: 10px;
     }
 }
 
@@ -90,6 +91,52 @@ header {
     li {
         list-style: none;
         color: grey;
+        font-size: 10px;
     }
 
+}
+
+.linkFv {
+    display: block;
+    color: grey;
+    font-size: 10px;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+.down {
+    background-color: #303030;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button {
+    border-color: #0282f9;
+    background-color: #303030;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+.button:hover {
+    background-color: #0282f9;
+}
+
+.follow {
+    color: #0282f9;
+}
+
+.right {
+    margin-top: 40px;
+
+    li {
+        list-style: none;
+    }
 }

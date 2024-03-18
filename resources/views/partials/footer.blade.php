@@ -24,7 +24,7 @@
 <div class="backgrnd">
 
     <div class="row ">
-        <div class="col-6 d-flex">
+        <div class="col-6 d-flex justify-content-center">
             <div class="linkF mt-5 mx-3">
                 <p class="mx-4">DC COMICS</p>
                 <ul>
@@ -71,10 +71,37 @@
                 </ul>
             </div>
 
+
+            <div class="row">
+                <div class="linkFv">
+                    <p class="mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae natus nulla veniam, reprehenderit incidunt, accusantium quam unde vitae quo veritatis, dolor minus? Modi dolor qui illum aspernatur rem corrupti itaque.</p>
+                </div>
+            </div>
         </div>
 
         <div class="col-6">
             <img src="{{Vite::asset('resources/images/dc-logo-bg.png')}}" alt="">
         </div>
+
     </div>
+
+</div>
+<div class="down  d-flex">
+    <div class="left col-6 ">
+        <button class="button mx-5 ">SIGN-UP NOW!</button>
+    </div>
+    <div class="right col-6 d-flex ">
+        <ul class="d-flex ">
+            <li class="mx-3">
+                <p class="follow">FOLLOW US</p>
+            </li>
+            <li class="mx-3"><img src="{{Vite::asset('resources/images/footer-facebook.png')}}" alt=""></li>
+            <li class="mx-3"><img src="{{Vite::asset('resources/images/footer-twitter.png')}}" alt=""></li>
+            <li class="mx-3"><img src="{{Vite::asset('resources/images/footer-youtube.png')}}" alt=""></li>
+            <li class="mx-3"><img src="{{Vite::asset('resources/images/footer-pinterest.png')}}" alt=""></li>
+            <li class="mx-3"><img src="{{Vite::asset('resources/images/footer-periscope.png')}}" alt=""></li>
+        </ul>
+
+    </div>
+
 </div>

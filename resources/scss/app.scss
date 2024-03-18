@@ -30,7 +30,19 @@ header {
 //jumbo
 
 .jumbo {
+
     background-image: url('../images/jumbotron.jpg');
     height: 400px;
+    object-fit: cover;
+
+}
+
+.row {
+    background-color: black;
+}
+
+.comicImg {
+    width: 100%;
+    aspect-ratio: 2/3;
     object-fit: cover;
 }

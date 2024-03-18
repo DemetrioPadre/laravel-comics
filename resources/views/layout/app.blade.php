@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <title>DC COMICS </title>
+    <title>DC COMICS by LARAVEL </title>
     <link rel="icon" href="{{ Vite::asset('/resources/images/favicon.ico') }}" type="image/x-icon">
 
     @vite('resources/js/app.js')
@@ -19,10 +19,6 @@
     @yield('jumbo')
     @yield('main-content')
     <!-- fine header -->
-
-    <!-- jumbotron img -->
-    <!-- metterlo sopra ricordati -->
-
 
     <!-- fine jmb img -->
 
